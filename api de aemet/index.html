@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toledo - Ciudad de las Tres Culturas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Menú de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Toledo</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                <li class="nav-item"><a class="nav-link" href="reseñas.html">Reseñas</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <div class="container">
+        <h1>Bienvenido a Toledo</h1>
+        <p>Toledo, conocida como la "Ciudad de las Tres Culturas", es un lugar lleno de historia, arte y cultura.</p>
+        <img src="https://imgs.search.brave.com/0jyFPYgpfkbi9ckQScrKciFdYTDwjVkyJBqjP4oRKrc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTMy/ODM5MjkzNi9lcy9m/b3RvL3RvbGVkby5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/c21rZTg2OE5UdFBf/OF9SaWFScjBYeFZY/eW13eDFUSzlvR05Z/Z1hhTDdNdz0" alt="Toledo" class="img-fluid">
+        
+        <h2>Ubicación</h2>
+        <p>Toledo se encuentra en el centro de España, en la comunidad autónoma de Castilla-La Mancha.</p>
+        
+        <div id="map" style="height: 400px;"></div>
+        
+        <div id="weather" class="mt-4"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+</body>
+</html>
